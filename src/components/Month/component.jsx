@@ -21,7 +21,7 @@ const dayNames = [
   'Sunday',
   'Monday',
   'Tuesday',
-  'Wedensday',
+  'Wednesday',
   'Thursday',
   'Friday',
   'Saturday',
