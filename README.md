@@ -34,3 +34,6 @@ The application implements all these features, but inevitably this means it take
   * Audit and improve styling
   * Colour picker should overlay content, not push it down
   * Consider persisting state to localstorage
+  * When you add a reminder in another month, we should jump to that month
+  * Accessibility audit/improvements - e.g. days are not tabbable and I think it is hard/impossible to add a reminder using keyboard only
+  
