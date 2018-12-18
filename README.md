@@ -6,6 +6,7 @@ $ cd demo-calendar-task
 $ npm install
 $ npm start
 ```
+or view it live at https://thedanwoods.github.io/demo-calendar-task/
 
 ## Description
 
