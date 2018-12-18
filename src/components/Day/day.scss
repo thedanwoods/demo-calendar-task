@@ -1,0 +1,28 @@
+.day {
+  text-align: left;
+  background-color: #fff;
+  border: .5px solid #777;
+  height: 128px;
+}
+
+.day__button {
+  appearance: none;
+  padding: 8px;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.day__reminders {
+  list-style-type: none;
+  font-size: 11px;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.day__reminder-item {
+  padding: 2px 0;
+}
+
+.day--empty {
+  background-color: #ddd;
+}

@@ -1,0 +1,29 @@
+.month {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 0 8px;
+}
+
+.month__month-name {
+  grid-column: 2 / 7;
+}
+
+.month__button {
+  appearance: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+month__button-icon {
+  size: 3em;
+} 
+
+.month__day-name {
+  background-color: #999;
+  border: .5px solid #777;
+  font-size: 13px;
+  padding: 4px;
+}

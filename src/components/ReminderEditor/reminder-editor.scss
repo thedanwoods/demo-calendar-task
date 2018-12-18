@@ -1,0 +1,39 @@
+.reminder-editor {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.reminder-editor__heading {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  color: #333;
+  margin: 0;
+  padding: 0 0 16px 0;
+}
+
+.reminder-editor__input {
+  width: 100%;
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.reminder-editor__button {
+  appearance: none;
+  padding: 10px;
+  margin: 4px 0;
+  background-color: #f9f9f9;
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 100%;
+  &:hover {
+    background-color: #eee;
+  }
+  &:active {
+    background-color: #ddd;
+  }
+}
+
+.reminder-editor__color-button {
+  background-color: #fff;
+}
