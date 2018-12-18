@@ -18,7 +18,7 @@ const modalStyles = {
     right: 'auto',
     transform: 'translate(-50%,-20%)',
     width: '80%',
-    maxWidth: '30rem'
+    maxWidth: '30rem',
   },
 };
 
@@ -36,6 +36,15 @@ const ReminderEditor = ({ form, formSubmitted, formClosed, itemDeleted }) => {
   return (
     <Modal isOpen style={modalStyles} contentLabel="Example Modal">
       <div className="reminder-editor">
+        <div>
+          <button
+            type="button"
+            onClick={formClosed}
+            className="reminder-editor__close"
+          >
+            &times;
+          </button>
+        </div>
         <h2 className="reminder-editor__heading">Reminder</h2>
         <form
           onSubmit={e => {

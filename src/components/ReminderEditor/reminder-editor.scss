@@ -4,6 +4,19 @@
   flex-direction: column;
 }
 
+.reminder-editor__close {
+  appearance: none;
+  border: none;
+  background-color: #fff;
+  padding: 0 8px 8px 0;
+  font-size: 32px;
+  color: #777;
+  cursor: pointer;
+  &:hover {
+    color: #333;
+  }
+}
+
 .reminder-editor__heading {
   font-family: 'Noto Sans', sans-serif;
   font-size: 25px;
